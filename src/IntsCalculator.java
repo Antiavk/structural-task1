@@ -35,6 +35,6 @@ public class IntsCalculator implements Ints {
                         .addOperand(a)
                         .addOperand(b)
                         .calculate(Calculator.Operation.POW)
-                        .result();
+                        .result() ;
     }
 }
